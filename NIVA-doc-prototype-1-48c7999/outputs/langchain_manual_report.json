@@ -1,0 +1,68 @@
+{
+  "conversation": [
+    [
+      "bot",
+      "What problem are you facing? Please describe your main symptom in one sentence."
+    ],
+    [
+      "patient",
+      "cold"
+    ],
+    [
+      "patient",
+      "cold"
+    ],
+    [
+      "bot",
+      "Can you tell me more about this cold, such as when it started and how severe are your symptoms?"
+    ],
+    [
+      "patient",
+      "2 days"
+    ],
+    [
+      "bot",
+      "What is the severity of your cold? Are you experiencing a runny nose, cough, or sore throat?"
+    ],
+    [
+      "patient",
+      "runny nose"
+    ],
+    [
+      "bot",
+      "What is the severity of your runny nose? Is it a thin, watery discharge or thicker, more yellowish or greenish discharge?"
+    ],
+    [
+      "patient",
+      "thin"
+    ],
+    [
+      "bot",
+      "What is the severity of your runny nose? Is it constant or coming and going?"
+    ],
+    [
+      "patient",
+      "constant"
+    ],
+    [
+      "bot",
+      "You've mentioned you have a cold that started 2 days ago, with a runny thin nose that's been constant. Have you experienced any fever or cough?"
+    ]
+  ],
+  "structured": {
+    "symptoms": [
+      "runny nose",
+      "cold"
+    ],
+    "duration": "2 days",
+    "severity": "mild",
+    "current_medication": [],
+    "allergies": [],
+    "urgency": "medium",
+    "notes": ""
+  },
+  "triage": {
+    "specialist": "General Physician",
+    "urgency": "low"
+  }
+}

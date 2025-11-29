@@ -1,0 +1,60 @@
+{
+  "conversation": [
+    [
+      "bot",
+      "What problem are you facing? Please describe your main symptom in one sentence."
+    ],
+    [
+      "patient",
+      "cold"
+    ],
+    [
+      "bot",
+      "How long have you been experiencing this cold symptom?"
+    ],
+    [
+      "patient",
+      "3 days"
+    ],
+    [
+      "bot",
+      "Are you using any over-the-counter medications to treat your symptoms?"
+    ],
+    [
+      "patient",
+      "syrup"
+    ],
+    [
+      "bot",
+      "Are you still able to taste and smell normally?"
+    ],
+    [
+      "patient",
+      "yes"
+    ],
+    [
+      "bot",
+      "Are you experiencing a runny nose, cough, or congestion?"
+    ],
+    [
+      "patient",
+      "yes"
+    ],
+    [
+      "bot",
+      "Thank you. I have collected all required information."
+    ]
+  ],
+  "structured": {
+    "symptoms": "cold",
+    "duration": "3 days",
+    "severity": "syrup",
+    "additional_symptoms": "yes",
+    "medical_history": "yes",
+    "urgency": "low"
+  },
+  "triage": {
+    "specialist": "General Physician",
+    "urgency": "low"
+  }
+}

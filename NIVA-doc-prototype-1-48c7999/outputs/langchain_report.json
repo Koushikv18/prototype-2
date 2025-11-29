@@ -1,0 +1,24 @@
+{
+  "conversation": [
+    "Patient: I have had chest pain and mild breathlessness since morning.",
+    "Bot: Is your chest pain constant or does it come and go?",
+    "Patient: its a constant pain",
+    "Bot: Where is this pain located?",
+    "Patient: near chest",
+    "Bot: Is it a sharp or dull sensation?",
+    "Patient: sharp"
+  ],
+  "structured": {
+    "symptoms": [],
+    "duration": "",
+    "severity": "",
+    "current_medication": [],
+    "allergies": [],
+    "urgency": "",
+    "notes": "{\n  \"symptoms\": [\"chest pain\", \"mild breathlessness\"],\n  \"duration\": \"constant\",\n  \"severity\": \"mild\",\n  \"current_medication\": [],\n  \"allergies\": [],\n  \"urgency\": \"low\",\n  \"notes\": \"\""
+  },
+  "triage": {
+    "specialist": "General Physician",
+    "urgency": "low"
+  }
+}

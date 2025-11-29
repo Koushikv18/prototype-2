@@ -1,0 +1,2 @@
+pip install -U streamlit requests sentence-transformers pinecone langchain langchain-community langchain-huggingface python-dotenv
+pip install fpdf2
